@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sid's Tutoring Service</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        Sid's Tutoring Service
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p>
+                Hi there! I'm Sid, a passionate tutor dedicated to helping students excel in their studies.
+                Whether you're struggling with tricky subjects or preparing for exams, I'm here to help you achieve success!
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>How Tutoring Sessions Work</h2>
+            <p>
+                <!-- Placeholder for customization -->
+                [Insert a detailed explanation of how your tutoring sessions are structured. 
+                For example, you can describe the session length, preparation process, teaching methods, 
+                and any materials students should bring.]
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Request a Tutoring Session</h2>
+            <form id="tutoring-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="E.g., Mathematics" required>
+
+                <label for="unit">Unit/Topic</label>
+                <input type="text" id="unit" name="unit" placeholder="E.g., Algebra 1" required>
+
+                <label for="times">Available Times</label>
+                <textarea id="times" name="times" placeholder="E.g., Weekdays after 4 PM" required></textarea>
+
+                <button type="submit">Submit Request</button>
+            </form>
+            <p id="response-message"></p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Sid's Tutoring Service. Made with ❤️. Contact us at 
+        <a href="mailto:sid@example.com">sid@example.com</a>.
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
