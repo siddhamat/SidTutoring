@@ -8,7 +8,7 @@ document.getElementById('tutoring-form').addEventListener('submit', async functi
         times: document.getElementById('times').value,
     };
 
-    const response = await fetch('/submit-request', {
+    const response = await fetch('https://tutoringbackend-600j.onrender.com/submit-request', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
